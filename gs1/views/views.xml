@@ -1,0 +1,16 @@
+<odoo>
+  <data>
+
+
+    <menuitem name="Gs1" id="test.menu_root"/>
+    <menuitem name="Gs1" id="test.menu_2" parent="test.menu_root"/>
+    <menuitem name="Sales Activities" id="test.menu_1_list" parent="test.menu_2"  action="studio_customization.sales_activities_571304d5-a48c-4074-b9b3-1aded40d8767"/>
+    <menuitem name="GS1 Opportunities" id="test" parent="test.menu_2" action="studio_customization.gs1_opportunities_dd9fc36c-f82a-47db-a38b-7e8ea34682c3"/>
+
+<!--    <menuitem name="Gs1" id="test.menu_root"/>-->
+
+<!--    <menuitem name="Gs1" id="test.menu_2" parent="test.menu_root"/>-->
+<!--    <menuitem name="Sales Activities" id="test.menu_1_list" parent="test.menu_2"  action="sale.action_quotations_with_onboarding"/>-->
+<!--    <menuitem name="Server to list" id="test" parent="test.menu_2" action="sale.action_quotations"/>-->
+  </data>
+</odoo>
